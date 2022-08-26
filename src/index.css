@@ -1,0 +1,174 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "FuturaLT";
+  src: url("../src/assets/fonts/FuturaLT.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Okami";
+  src: url("../src/assets/fonts/Okami.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hyperwave_Two";
+ src: url("../src/assets/fonts/Hyperwave_Two.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaLT-Condensed";
+ src: url("../src/assets/fonts/FuturaLT-Condensed.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaLT-CondensedBold";
+ src: url("../src/assets/fonts/FuturaLT-CondensedBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+button.btn.btn_bg_hk{
+  font-family: Hyperwave_Two;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    height: 42px;
+    color: white !important;
+    line-height: 30px;
+    border-radius: 12px 0px 12px 0px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-clip-path: polygon(18% -13%, 100% 0, 100% 0, 100% 70%, 86% 100%, 0 100%, 0 100%, 0% 34%);
+    clip-path: polygon(18% -13%, 100% 0, 100% 0, 100% 70%, 86% 100%, 0 100%, 0 100%, 0% 34%);
+    background-color: #3f347b;
+    padding: 0px 35px;
+}
+.select_abilites button.btn:focus {
+    box-shadow: none;
+}
+button.btn.btn-primary.heart_wishlist:focus {
+    border: none;
+    outline: none;
+  background: #4f3ac2;
+    box-shadow: none;
+}
+button.btn.btn-primary.heart_wishlist:active {
+    border: none;
+    outline: none;
+  background: #4f3ac2;
+    box-shadow: none;
+}
+button.btn.btn-primary.heart_wishlist:focus-visible {
+    border: none;
+    outline: none;
+    background: #4f3ac2;
+}
+button.heart_wishlist:focus i {
+    color: #fff;
+}
+button.heart_wishlist:focus {
+    background: #4f3ac2;
+}
+
+button.heart_wishlist:active i {
+    color: #fff;
+}
+button.heart_wishlist:active {
+    background: #4f3ac2;
+}
+
+button.heart_wishlist:focus-visible i {
+    color: #fff;
+}
+button.heart_wishlist:focus-visible {
+    background: #4f3ac2;
+}
+
+.skillbar-percent {
+    position: absolute;
+    right: 0 !important;
+    top: -38px !important;
+    line-height: inherit !important;
+    font-family: 'FuturaLT-CondensedBold' !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+.content_inner_slider a {
+    text-decoration: none !important;
+}
+.table_main a.btn.btn_bg_hk:hover {
+    background: #45b26c;
+    color: #ffffff;
+}
+a.btn.btn_bg_hk:hover {
+    background: #45b26c;
+    color: white;
+}
+button.btn.btn_bg_hk:hover{
+   background: #45b26c;
+    color: white;
+}
+body.modal-open .header.for_modal_all {
+    padding-right: 17px;
+}
+.header.for_modal_all {
+    padding-right: 0;
+}
+.modal.fade.hk_modal_for_select{
+  padding: 0 !important;
+}
+body.modal-open .modal.fade.hk_modal_for_select.show{
+  padding-right: 0px !important;
+  padding-top: 0 !important;
+}
+.hk_hover_for_border:hover {
+    background: white;
+}
+.hk_hover_for_border:hover button.btn.btn_bg_hk.with_borders {
+    color: #3f347b !important;
+}
+.hk_hover_for_border:hover a.btn.btn_bg_hk {
+    color: #3f347b !important;
+}
+
+
+.table_main .table tr td:first-child {
+    padding-top: 16px;
+    padding-bottom: 14px;
+    border-radius: 8px 0 0 8px;
+}
+.table_main .table tr td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+.table_main .table tbody tr {
+    /* border-radius: 8px; */
+    box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    background-color: #1C1721;
+}
+
+.select_abilites.modal-footer a button.btn.btn_bg_hk.hk_continue.quickening_continue {
+    height: 46px;
+}
+.navbar-nav {
+   margin-left: auto !important;
+}
+.for_selectbox input:focus-visible {
+    outline: none;
+    border: none;
+}
+
+.text-white {
+    color:  #FFF;
+}

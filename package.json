@@ -1,0 +1,103 @@
+{
+  "name": "my-app",
+  "homepage": ".",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@createnextapp/async-local-storage": "^1.0.1",
+    "@lazy-react/react-suspense": "^1.0.8",
+    "@popperjs/core": "^2.11.5",
+    "@szhsin/react-menu": "^3.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@wojtekmaj/react-daterange-picker": "^3.4.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.6.0",
+    "email-validator": "^2.0.4",
+    "ethers": "^5.5.3",
+    "formik": "^2.2.9",
+    "get-video-duration": "^4.0.0",
+    "highcharts": "^10.0.0",
+    "highcharts-react-official": "^3.1.0",
+    "http-proxy-middleware": "^2.0.3",
+    "image-upload-react": "^1.4.5",
+    "jquery": "^3.6.0",
+    "link-react": "^3.0.0",
+    "moment": "^2.29.1",
+    "otp-input-react": "^0.3.0",
+    "popper.js": "^1.16.1",
+    "postcss-normalize": "^10.0.1",
+    "radium": "^0.26.1",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-brackets": "^0.4.6",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-date-picker": "^8.4.0",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^17.0.2",
+    "react-otp-input": "^2.4.0",
+    "react-player": "^2.9.0",
+    "react-reactive-form": "^1.0.32",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "6.2.1",
+    "react-scripts": "^5.0.0",
+    "react-share": "^4.4.0",
+    "react-skillbars": "^1.6.1",
+    "react-slick": "^0.28.1",
+    "react-switch": "^6.0.0",
+    "react-validation": "^3.0.7",
+    "react-video-play": "^2.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0",
+    "video-player-for-react": "^1.0.7",
+    "video-react": "^0.15.0",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.7.3",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-error-overlay": "^6.0.9",
+    "redux-devtools-extension": "^2.13.8",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}

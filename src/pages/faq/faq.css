@@ -1,0 +1,89 @@
+section.faqs {
+    padding-top: 120px;
+}
+section.faqs .card-header {
+   color: white;
+    border-radius: 8px;
+    box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    background-color: #1c1721;
+    padding: 7px 25px;
+}
+
+div#accordion .card {
+    border: none;
+    background: transparent;
+    margin-bottom: 20px;
+    box-shadow: 0 28px 34px -10px rgba(0, 0, 0, 0.39);
+}
+
+div#accordion button.btn.btn-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+div#accordion button.btn.btn-link.collapsed {
+    color: #fff;
+    text-decoration: none;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.faqs .card-body {
+    color: white;
+   font-family: 'FuturaLT-Condensed';
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 26px;
+      background: #1c1721;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 38px;
+    padding-right: 32px;
+    padding-bottom: 15px;
+}
+
+div#accordion button.btn.btn-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+div#accordion .card-body ol {
+    padding-left: 15px;
+}
+
+div#accordion .card-body ol li {
+    margin-bottom: 15px;
+}
+
+span.notopen img {
+    height: 10px;
+    position: relative;
+    right: 0px;
+    filter: invert();
+}
+
+button.btn.btn-link.transform_arrow span.notopen img {
+    transform: rotate(180deg);
+}
+
+button.btn.btn-link.transform_arrow.collapsed span.notopen img {
+    transform: rotate(0deg);
+}
+
+div#accordion .card-body p {
+    font-weight: 400;
+}

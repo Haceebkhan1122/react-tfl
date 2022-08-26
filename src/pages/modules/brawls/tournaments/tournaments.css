@@ -1,0 +1,1366 @@
+.start_own {
+    background-image: url('../../../assets/img/start_own_bg.jpg');
+    height: 468px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #090014;
+}
+.title_section h1 {
+    background-image: linear-gradient(
+353deg, #ebeae9 84%, #fefdfc 80%, #e2d3b2 75%, #f3e9d4 55%, #ffffff 36%, #f0e8d7 23%, #f5f5f4 13%, #ebeae9 5%);
+    font-family: Hyperwave_Two;
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.table_main a.btn.btn_bg_hk {
+    padding: 10px 50px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    margin: auto;
+    margin-top: 20px;
+    /* padding-left: 16px !important; */
+}
+.table_main .card_selection .custom_bg .for_selectbox {
+    width: 115px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start_own h1 {
+    font-size: 80px;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 19px;
+    margin-bottom: 25px;
+}
+.title_section p {
+    font-family: FuturaLT;
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+}
+.full_box {
+    width: 273px;
+    height: 320px;
+    flex-grow: 0;
+    border-radius: 18px;
+    box-shadow: 0 44px 43px 0 rgb(0 0 0 / 44%);
+    background-color: #0a0f20;
+}
+.full_box .card_hk .for_image img {
+    width: 100%;
+    border-radius: 18px 18px 0px 0px;
+}
+.content_for {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.content_for button.btn {
+    border-radius: 7px;
+    border: none;
+    background: transparent;
+    line-height: 0;
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 4px;
+    color: #8753ff;
+}
+button.btn.btn-primary.for_home:hover {
+    background: transparent;
+}
+.content_for h3 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.box_main {
+    padding: 15px 17px;
+}
+
+.start_own .title_section a.btn.btn_bg_hk {
+    margin-left: 15px;
+    width: 183px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prf img {
+    width: 24px;
+    height: 24px;
+    border: solid 0.9px #fff;
+    border-radius: 100px;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+.content_for h5 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+hr.hr_line {
+    width: 100%;
+    border: solid 1px #ffffff;
+    margin-top: 0;
+    opacity: 0.1;
+}
+.content_for span h6 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: 100 !important;
+    color: white;
+    margin-right: 6px;
+}
+span.for_align img {
+    width: 14px;
+    position: relative;
+    top: -7px;
+}
+span.for_align {
+    display: flex;
+    align-items: center;
+}
+.z_index {
+    position: relative;
+    z-index: 999;
+}
+.some_inner {
+    position: relative;
+    /* left: -100px; */
+    left: -130px;
+    top: 80px;
+}
+span.drop_arrow img {
+    height: 10px;
+    margin-top: -4px;
+    display: inline-block;
+}
+.content_for button.btn:hover {
+    background: #45b26c;
+    color: white;
+}
+.prf h5 {
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+.prf {
+    display: flex;
+    align-items: center;
+}
+.table_main .table tr td {
+    font-size: 15px;
+    font-family: 'FuturaLT-Condensed';
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+.table_main span.text_color img {
+    height: 17px;
+    position: relative;
+    left: -4px;
+    top: -2px;
+}
+.table_main .table thead th {
+    font-family: FuturaLT-CondensedBold;
+    text-transform: uppercase;
+    padding-left: 25px;
+    text-align: left;
+}
+.table_main .table tr td:first-child {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.drops_main {
+    display: flex;
+    align-items: center;
+}
+.drops_main .tournament_drops {
+    margin-right: 30px;
+}
+
+.tournament_drops select {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 18px;
+    font-weight: normal;
+    background: transparent;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 140px;
+    position: relative;
+    z-index: 99;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../../assets/img/dropsdown.png') 96% / 15% no-repeat;
+  background-size: 12px 7px;
+  outline: none;
+}
+.tournament_drops select option {
+    color:#000;
+}
+.for_selectbox {
+    border: 2px solid #fff;
+    position: relative;
+    clip-path: polygon(18% -13%, 100% 0, 100% 0, 100% 70%, 86% 100%, 0 100%, 0 100%, 0% 34%);
+    width: 170px;
+}
+.for_selectbox img {
+    width: 13px;
+    position: relative;
+    right: 15px;
+}
+.for_selectbox:after {
+    content: "";
+    position: absolute;
+    border-left: 2px solid #fff !important;
+      right: -70px;
+    height: 28px;
+    width: 105px;
+    top: 70px;
+    transform: rotate(56deg);
+    z-index: 222;
+}
+.for_selectbox:before{
+    content: "";
+    position: absolute;
+    border-left: 2px solid #fff !important;
+    left: -12px;
+    height: 28px;
+    width: 103px;
+    top: 33px;
+    transform: rotate(52deg);
+    z-index: 222;
+}
+.tournament_drops select:focus-visible {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.for_selectbox select option {
+    background: #1c1721;
+    color: white;
+    width: 150px;
+}
+.hk_colapsing h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    color: white;
+    margin-bottom: 0;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.hk_colapsing h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    margin-bottom: 0;
+    color: white;
+    padding-top: 7px;
+}
+.hk_colapsing h5 span i {
+    font-size: 15px;
+    margin-left: 7px;
+}
+.hk_colapsing span.text_color {
+    font-size: 20px;
+    padding-right: 0;
+    font-family: 'FuturaLT-CondensedBold';
+    position: relative;
+    top: 10px;
+}
+.registerd p {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'FuturaLT-CondensedBold';
+    position: relative;
+    top: -6px;
+}
+.registerd p span {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+.table_rules h4 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 13px;
+    color: white;
+    padding-top: 2px;
+    font-family: 'FuturaLT-CondensedBold';
+    padding-top: 4px;
+}
+.table_rules h6 {
+    margin-right: 25px;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'FuturaLT-Condensed';
+}
+.table_rules p.status {
+    margin-bottom: 0;
+    color: white;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.table_rules p.status span {
+    color: #45b26c;
+    margin-left: 5px;
+}
+.hk_colapsing table.table {
+    margin-top: 0;
+}
+.hk_colapsing table.table tr th {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 0;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.hk_colapsing table.table tr td{
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    padding-left: 0;
+    font-weight: normal;
+}
+.hk_colapsing .table tbody tr{
+    background-color: transparent;
+}
+.hk_colapsing {
+    background: #1c1721;
+}
+table.table.for_tr_bg tr {
+    background-color: transparent;
+    box-shadow: none;
+}
+table.table.for_tr_bg tr td:first-child {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.hk_enter {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.hk_enter a.btn.btn_bg_hk {
+    margin-top: 10px;
+}
+.hk_colapsing .table td, .table th{
+    border: none !important;
+}
+hr.special_line {
+    border-color: #5a5656;
+}
+tr.colapsingg {
+    display: none;
+}
+tr.onclicking {
+    cursor: pointer;
+}
+.top_nft{
+    background-color: #090014;
+    height: auto;
+    background-image: none;
+}
+span.cross_hide img {
+    width: 18px;
+    cursor: pointer;
+}
+span.cross_hide {
+    position: relative;
+    right: -62px;
+    top: -23px;
+}
+.modal.fade.hk_modal_for_select {
+    padding-top: 120px;
+}
+span.info_icon img {
+    height: 15px;
+    position: relative;
+    left: 5px;
+    top: -1px;
+}
+.hk_modal_for_select .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 28px 34px -10px rgba(0, 0, 0, 0.8);
+    background-color: #1c1721;
+    padding-bottom: 15px;
+}
+.hk_modal_for_select  h5.modal-title {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.hk_modal_for_select .tournament_drops {
+    display: flex;
+    align-items: center;
+}
+
+.hk_modal_for_select .tournament_drops .for_selectbox input {
+    background: transparent;
+    width: auto;
+    border: none;
+    height: 47px;
+    padding: 0px 19px;
+    color: white;
+    font-size: 18px;
+    width: 165px;
+    font-family: 'FuturaLT-Condensed';
+}
+.hk_modal_for_select .tournament_drops .for_selectbox input::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'FuturaLT-Condensed';
+}
+.hk_modal_for_select .modal-header {
+    border: none;
+    padding-top: 8px;
+}
+.hk_modal_for_select  .table td, .table th{
+    border: none;
+}
+.hk_modal_for_select .tournament_drops .for_selectbox {
+    margin-right: 30px;
+}
+.hk_modal_for_select .table_main .table {
+    margin-top: 25px;
+}
+.hk_modal_for_select .table_main .table tbody tr {
+    border-radius: 8px;
+    box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    background-color: #090014;
+}
+.hk_modal_for_select .table_main .table tbody tr td{
+    font-weight: normal;
+    font-family: 'FuturaLT-Condensed';
+    padding: 0 15px;
+}
+.hk_modal_for_select .table_main .table .modal-body {
+    padding: 0px 30px;
+}
+.hk_modal_for_select button.close {
+    opacity: 1;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+button.btn.back_reverse:focus {
+    outline: none;
+    box-shadow: none;
+}
+.hk_modal_for_select  span.cross_hide {
+    position: relative;
+    right: -10px;
+    top: -16px;
+}
+.hk_modal_for_select button.close:hover {
+    opacity: 1 !important;
+}
+.hk_modal_for_select  .table_main a.btn.btn_bg_hk {
+    padding: 8px 33px;
+    margin-top: 0px;
+    height: 41px;
+}
+.hk_modal_for_select  span.same_size {
+    display: inherit;
+    position: relative;
+    left: 50px;
+    top: -15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.hk_modal_for_select .modal-body {
+    padding: 0px 30px;
+}
+.hk_modal_for_select  .card_boxes span i {
+    font-size: 4px;
+    margin: 0px 4px;
+    position: relative;
+    top: -3px;
+}
+.hk_modal_for_select  .profiless img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: solid 1px #8753ff;
+    margin-right:10px;
+}
+.hk_modal_for_select  .card_boxes {
+    display: flex;
+    align-items: center;
+}
+.hk_modal_for_select  .profiless h4 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0;
+    text-align: left;
+}
+.hk_modal_for_select  .profiless p span {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+.hk_modal_for_select  .profiless h3 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+}
+.hk_modal_for_select  .profiless {
+    text-align: left;
+}
+.hk_modal_for_select  .custom_bg {
+    width: 100%;
+    height: 73px;
+    padding: 15px 20px 13px 15px;
+    border-radius: 8px;
+    box-shadow: 0 28px 34px -10px rgba(0, 0, 0, 0.39);
+    background-color: #090014;
+    margin-bottom: 6px;
+}
+.hk_modal_for_select  .modal-dialog.modal-lg {
+    width: 650px;
+}
+.hk_modal_for_select .profiless p {
+    margin-bottom: 0;
+}
+span.cross_hides img{
+    width: 18px;
+    cursor: pointer;
+}
+.top_part img {
+    width: 100%;
+    border-radius: 15px;
+}
+.select_abilites .card_selection h2 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+.select_abilites  .card_selection p {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    font-family: 'FuturaLT-Condensed';
+}
+.select_abilites  .stock-images .image {
+  opacity: 1;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-position: center center;
+  background-color: gray;
+}
+.select_abilites  .stock-images .image:hover {
+  opacity: 1;
+}
+.select_abilites  .image {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    display: flex;
+    align-items: center;
+}
+.select_abilites  .stock-images [type=checkbox] + label:before,
+.select_abilites  .stock-images [type=checkbox] + label:after {
+  display: none;
+}
+.select_abilites .stock-images [type=checkbox] + label {
+  padding: 0;
+  margin-bottom: 0;
+}
+.select_abilites .stock-images [type=checkbox]:not(:checked) + label .image {
+    width: 100%;
+    height: 73px;
+    padding: 12px 134px 12px 20px;
+    border-radius: 8px;
+   box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    border: solid 2px #54f8fc;
+    background: transparent;
+}
+.boots.hk_only_this.fielddd .stock-images [type=checkbox]:not(:checked) + label .image {
+    padding: 12px 25px 12px 20px;
+}
+.select_abilites  .stock-images [type=checkbox]:checked + label .image {
+    width: 100%;
+    height: 73px;
+    padding: 12px 134px 12px 20px;
+    border-radius: 8px;
+   box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    border: solid 2px #090014  !important;
+    background-color: #090014 !important;
+  opacity: 1;
+}
+.boots.hk_only_this.fielddd .stock-images [type=checkbox]:checked + label .image{
+    padding: 12px 25px 12px 20px !important;
+}
+
+.field_design {
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    display: flex;
+    visibility: hidden;
+}
+.boots.hk_only_this.fielddd .stock-images [type=checkbox]:checked + label .image .field_design{
+    visibility: visible;
+}
+.field_design input[type="number"] {
+    background: transparent;
+    border: transparent;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    text-align: center;
+}
+.field_design button {
+    background: #3f347b;
+    outline: none;
+    border: none;
+    width: 26px;
+    height: 26px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0;
+    border-radius: 3px;
+    color: white;
+}
+
+.select_abilites .stock-images img {
+    height: 40px;
+    margin-right: 5px;
+}
+.select_abilites .stock-images input[type=checkbox], .select_abilites .stock-images input[type=checkbox]{
+opacity: 0;
+}
+.exact_copy {
+    width: 90%;
+    margin-left: 15px;
+}
+.exact_copy label{
+    width: 100%;
+}
+.select_abilites .for_box_border1 .stock-images [type=checkbox]:not(:checked) + label .image {
+    border-color: #ff6a0d;
+}
+.select_abilites .for_box_border2 .stock-images [type=checkbox]:not(:checked) + label .image {
+    border-color: #bbff00;
+}
+.select_abilites .for_box_border3 .stock-images [type=checkbox]:not(:checked) + label .image {
+    border-color: #54f8fc;
+}
+.boots {
+    margin-bottom: -5px;
+}
+.modal-content.select_abilites {
+    padding-bottom: 20px;
+}
+.select_abilites.modal-footer {
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.select_abilites.modal-footer {
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select_abilites button.btn {
+    font-family: 'Hyperwave_Two';
+    font-size: 26px;
+    font-weight: normal;
+    color: #908e93;
+}
+
+.select_abilites button.btn img {
+    width: 20px;
+}
+.select_boost .profiless p span {
+    color: #695ea5;
+}
+.card_boxes.hk_confirm .profiless img {
+    object-fit: cover;
+    border: none;
+    width: 85%;
+    margin-right: 0;
+}
+.confirm_seletion .table_main {
+    width: 100%;
+}
+span.magic {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: #695ea5;
+    margin-left: 5px;
+}
+.card_boxes h4 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0;
+    text-align: left;
+}
+.crust {
+    padding-top: 13px;
+}
+.priceinfo h3 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.priceinfo span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #45b26c;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.priceinfo span img {
+    height: 27px;
+    margin-right: 5px;
+}
+.priceinfo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.priceinfo p {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: #908e93 !important;
+    text-align: center !important;
+}
+.priceinfo h6 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+    line-height:28px;
+}
+.priceinfo {
+    width: 55%;
+    margin: auto;
+}
+.select_abilites.modal-footer.priceinfo button.btn.btn_bg_hk.hk_continue.with_borders {
+    background: transparent;
+}
+.select_abilites.modal-footer.priceinfo .for_selectbox {
+    width: 127px;
+}
+.select_abilites.modal-footer.priceinfo .for_selectbox:before {
+    height: 20px;
+    width: 22px;
+    top: 3px;
+    transform: rotate(45deg);
+    left: 3px;
+}
+.select_abilites.modal-footer.priceinfo .for_selectbox:after {
+    right: 4px;
+    height: 20px;
+    width: 6px;
+    top: 29px;
+    transform: rotate(56deg);
+}
+span.magic.green {
+    color: #b2454c;
+}
+.modal-content.transaction_confirm {
+    width: 360px !important;
+    margin: auto !important;
+}
+.modal-content.transaction_confirm .table_main {
+    width: 100%;
+}
+.modal-footer {
+    padding-bottom: 0 !important;
+}
+button.addMore {
+    font-size: 18px;
+    font-weight: bold;
+    color: #45b26c;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.modal-content.transaction_confirm .select_abilites.modal-footer.priceinfo {
+    width: 97%;
+    padding-bottom: 3px;
+}
+.modal-content.select_boost a.btn.btn_bg_hk.selected {
+    padding: 7px 0;width: 120px;
+}
+.card_boxes .for_selectbox a.btn.btn_bg_hk {
+    background: transparent;
+}
+.card_boxes .for_selectbox:before {
+    width: 95px;
+    top: 28px;
+    transform: rotate(47deg);
+}
+.card_boxes .for_selectbox:after {
+    top: 60px;
+    transform: rotate(
+56deg);
+    width: 100px;
+}
+.boots.hk_only_this .exact_copy {
+    margin-left: 0;
+    width: 100%;
+}
+span.closed_status {
+    color: #dc3f16 !important;
+}
+.see_details_table p button.see_details {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 16px;
+    font-weight: normal;
+    color: #45b26c;
+    background: transparent;
+    border: none;
+}
+.see_details_table p span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    color: white;
+    margin-left: 10px;
+}
+.player_bio img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.top_bio {
+    width: 40px;
+    height: 27px;
+    padding: 0 8px 0 7px;
+    border-radius: 5px;
+    background-color: #45b26c;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.player_bio {
+    position: relative;
+}
+
+.top_bio h4 {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 26px;
+}
+
+.player_bio h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'FuturaLT-CondensedBold';
+    margin-bottom: 3px;
+}
+
+.top_bio p {
+    font-family: FuturaLT;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.player_bio p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.player_bio p i {
+    font-size: 3px;
+    margin: 0px 4px;
+}
+.hk_follow h1 {
+    font-size: 23px;
+    font-weight: normal;
+    color: white;
+    font-family: 'FuturaLT-Condensed';
+}
+.hk_follow span.text_color {
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'FuturaLT-Condensed';
+    top: 0px !important;
+    left: 8px;
+}
+.hk_follow span.text_color img {
+    height: 20px;
+}
+.position_holder_data h4 {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    font-family: 'FuturaLT-Condensed';
+}
+.position_holder_data {margin-right: 60px;}
+
+.positions_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position_holder_data:last-child {
+    margin-right: 0;
+}
+.position_holder_data span.text_color {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 25px;
+}
+img.result_button_profile {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: solid 1px #8753ff;
+    /* margin: 0px 13px;
+    margin-left: 0; */
+    margin: 0 10px 0 15px;
+}
+.result_chain a.btn_bg_hk {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    width: 194px;
+    height: 55px !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+.result_chain .for_selectbox a.btn_bg_hk {
+    background: transparent;
+    border: none;
+    margin-top: 0  !important;
+}
+.for_centerization {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.result_chain h3 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+.result_chain h6 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    padding-left: 10px;
+}
+.result_chain.third_gamers h3 {
+    top: 34px;
+}
+img.map1 {
+    position: absolute;
+    height: 145px;
+    left: 245px;
+    margin-top: -2px;
+}
+img.map2 {
+    height: 121px;
+    position: absolute;
+    left: 245px;
+    top: 5px;
+}
+img.map3 {
+    position: absolute;
+    width: 158px;
+    left: 258px;
+    top: 67px;
+}
+.hk_last_two_players {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: -40px;
+    margin-left: -18px;
+}
+a.btn_bg_hk.looser {
+background: #0a0909;
+border: 1px solid #383838;
+position: relative;
+opacity: 0.8;
+}
+a.btn_bg_hk.looser:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 1px;
+    background: #383838;
+    left: -4px;
+    top: 8px;
+    transform: rotate(-45deg);
+}
+a.btn.btn_bg_hk.looser:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 1px;
+    background: #383838;
+    right: -4px;
+    bottom: 6px;
+    transform: rotate( -34deg);
+}
+span.numbering {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+}
+
+.scroll_inner_tournament{
+    overflow-x: auto;
+}
+tr.colapsingg td:last-child{
+    border-radius: 8px !important;
+}
+.modal-content .select_abilites.modal-footer button.btn.btn_bg_hk.hk_continue.bg_button_height {
+    height: 46px;
+}
+.table_main.scroll_table_tournament tr.onclicking td:nth-child(4), .table_main.scroll_table_tournament tr.onclicking td:nth-child(5) {
+    padding-left: 30px;
+}
+table.table.for_tr_bg td:last-child {
+    padding-top: 16px;
+}
+span.copy_icon img {
+    height: 16px;
+    margin-left: 5px;
+}
+.for_selectbox.hk_too_width {
+    width: 263px;
+}
+tr.colapsingg a.btn.btn_bg_hk {
+    padding: 0 !important;
+    justify-content: center;
+    /* padding: 0 0 0 25px !important;
+    justify-content: flex-start; */
+}
+
+.for_selectbox.hk_too_width:before {
+    left: -18px;
+    height: 40px;
+    width: 128px;
+    top: 42px;
+    transform: rotate(61deg);
+}
+.for_selectbox.hk_too_width input {
+    width: 263px !important;
+    padding-left: 37px !important;
+}
+.for_selectbox.hk_too_width:after {
+    right: -73px;
+    height: 40px;
+    width: 128px;
+    top: 78px;
+    transform: rotate(66deg);
+}
+button.btn.back_reverse.weapons {
+    padding-left: 0;
+    padding-right: 0;
+}
+.modal-content.select_boost .select_abilites.modal-footer button.hk_continue_forselection {
+    width: 127px;
+}
+.modal-content.select_boost .card_boxes .profiless {
+    padding-top: 2px;
+}
+
+.fix_table_h_listing {
+    min-height: calc(100vh - 615px);
+}
+.fix_table_h_tournament{
+    min-height: calc(100vh - 589px);
+}
+.scroll_table_pop{
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.scroll_list_310{
+    overflow-y: auto;
+    max-height: 320px;
+    overflow-x: hidden;
+}
+
+.tooltip_custom {
+    position: relative;
+}
+.tooltip_custom .tooltiptext {
+    display: none;
+    position: absolute;
+    width: 210px;
+    background-color: #1c1721;
+    padding: 16px;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    box-shadow: 0 5px 34px 0 rgba(0, 0, 0, 0.8);
+    font-family: 'FuturaLT-Condensed';
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: condensed;
+    text-align: left;
+    text-transform: initial !important;
+    color: #fff;
+}
+.tooltip-bottom {
+    top: 45px;
+    left: 36%;
+    margin-left: -60px;
+}
+.tooltip-bottom:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #1c1721 transparent;
+}
+.info_icon:hover + span.tooltiptext {
+    display: block;
+    opacity: 1;
+}
+.mr_3_px{
+    margin-right: 3px;
+}
+.mr_1_px{
+    margin-right: -1px !important;
+}
+.mini_circle_img .custom_bg:nth-child(1) .profiless img,
+.mini_circle_img .custom_bg:nth-child(2) .profiless img{
+    width: 50px !important;
+}
+
+.mini_circle_img .custom_bg:nth-child(n+3) .profiless img{
+    margin-right: 10px;
+    border: solid 1px #8753ff;
+}
+span.text_color{
+    color: #8753ff;
+}
+div#exampleModal {
+    z-index: 99999;
+}
+.hk_last_two_players .for_centerization {
+    margin-left: auto;
+}
+.for_border_color .border_color_box:nth-child(3) label .image {
+    border: solid 2px #ff6a0d !important;
+}
+.players_cards_main .stock-images .image {
+    padding-right: 0 !important;
+    font-size: 14px;
+    height: 46px !important;
+}
+.video_part {
+    height: 640px;
+}
+.button_for_result_see .for_selectbox.hk_hover_for_border {
+    text-align: center;
+    margin: auto;
+    width: 190px;
+    cursor: pointer;
+    border-color: #45b26c;
+    display: inline-block;
+}
+.button_for_result_see .for_selectbox.hk_hover_for_border button.see_details {
+    background: transparent;
+    padding: 0;
+    color: #45b26c !important;
+    width: 100%;
+    font-family: 'Hyperwave_Two';
+    font-size: 26px;
+}
+
+.button_for_result_see .for_selectbox:before {
+    border-left: 2px solid #45b26c !important;
+    left: -13px;
+    height: 28px;
+    width: 103px;
+    top: 35px;
+    transform: rotate(57deg);
+}
+
+.button_for_result_see .for_selectbox:after {
+    border-left: 2px solid #45b26c !important;
+    right: -66px;
+    height: 28px;
+    width: 106px;
+    top: 69px;
+    transform: rotate(62deg);
+}
+.button_for_result_see .for_selectbox.hk_hover_for_border:hover {
+    background: #45b26c;
+}
+.button_for_result_see .hk_hover_for_border:hover button.btn.btn_bg_hk.with_borders{
+    color: #fff !important;
+}
+.button_for_result_see .for_selectbox.hk_hover_for_border button.see_details:focus {
+    box-shadow: none;
+}
+img.map3{
+    height: 145px;
+}
+
+
+.switch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  } */
+  .slider:before {
+    /* position: absolute;
+    content: "";
+    
+    transition: .4s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px; */
+    /* position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    left: -1px;
+    bottom: -5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s; */
+}
+  
+  input:checked + .slider {
+    background-color: #3f347b;
+  }
+  
+  input:focus + .slider {
+    background-color: #3f347b;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    width: 30px;
+    height: 7.5px;
+    border-radius: 30px;
+    background-color: #3f347b;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .my_brawls_check_text{
+    font-family: 'FuturaLT-Condensed';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: condensed;
+    text-align: left;
+    color: #fff;
+  }

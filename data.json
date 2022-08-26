@@ -1,0 +1,255 @@
+{
+  "data": {
+    "_id": "62349081c5a174a434f0a578",
+    "player1": {
+      "playerId": "622f3fd1537565fd0429faf3",
+      "playerName": "saad1990",
+      "characterId": "6218f216cdb7827ae0605338",
+      "characterAvatar": "/assets/img/c1.png",
+      "characterName": "Collazig",
+      "race": "undead",
+      "winRate": "29",
+      "brawlWin": "30",
+      "brawlLoose": "6",
+      "level": 1,
+      "position": 3,
+      "character": {
+        "name": "jack",
+        "description": "fighter",
+        "baseRace": "python",
+        "race": "scales",
+        "gender": "female",
+        "Class": "kicker",
+        "shortCode": "pythonFemale",
+        "booster": 0.5,
+        "level": 1,
+        "config": {
+          "strength": 1000,
+          "timeBetweenDecisions": 0,
+          "timeBetweenActions": 0,
+          "rulesCompilance": 0.9,
+          "aggressiveness": 0.5,
+          "comboEfficiency": 0.8
+        },
+        "colorLists": [
+          {
+            "materialName": "lambert2",
+            "textureName": "PythonFemale_pyhton_body_BaseMap_1",
+            "color": {
+              "R": 255,
+              "G": 255,
+              "B": 255
+            }
+          },
+          {
+            "materialName": "Scales_Python_Female_lambert2",
+            "textureName": "pyhton_female_assets_Variation2_BaseMap_2",
+            "color": {
+              "R": 206,
+              "G": 227,
+              "B": 224
+            }
+          }
+        ],
+        "visibility": [],
+        "moveSet": [
+          {
+            "shortCode": "crouchPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "shortPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "longPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "doublePunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "slamPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "pronePunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "crouchKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "shortKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "longKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "jumpKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "flipKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "doubleKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "proneKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "superPower",
+            "hitEffect": 30
+          }
+        ],
+        "file": {
+          "ETag": "\"7337efe631d2315c65eb7c35afff5e1a\"",
+          "Location": "https://bgms3.s3.amazonaws.com/PythonFemale7.png",
+          "key": "PythonFemale7.png",
+          "Key": "PythonFemale7.png",
+          "Bucket": "bgms3"
+        },
+        "published": false,
+        "createdAt": "2022-02-25T15:13:26.677Z",
+        "lastUpdated": "2022-02-25T15:13:26.677Z"
+      }
+    },
+    "player2": {
+      "playerId": "622f3fd1537565fd0429faf3",
+      "playerName": "saad1990",
+      "characterId": "6218f216cdb7827ae0605338",
+      "characterAvatar": "/assets/img/c2.png",
+      "characterName": "Khush",
+      "race": "dead",
+      "winRate": "30",
+      "brawlWin": "25",
+      "brawlLoose": "15",
+      "level": 1,
+      "position": 4,
+      "character": {
+        "name": "jack",
+        "description": "fighter",
+        "baseRace": "python",
+        "race": "scales",
+        "gender": "female",
+        "Class": "kicker",
+        "shortCode": "pythonFemale",
+        "booster": 0.5,
+        "level": 1,
+        "config": {
+          "strength": 1000,
+          "timeBetweenDecisions": 0,
+          "timeBetweenActions": 0,
+          "rulesCompilance": 0.9,
+          "aggressiveness": 0.5,
+          "comboEfficiency": 0.8
+        },
+        "colorLists": [
+          {
+            "materialName": "lambert2",
+            "textureName": "PythonFemale_pyhton_body_BaseMap_1",
+            "color": {
+              "R": 255,
+              "G": 255,
+              "B": 255
+            }
+          },
+          {
+            "materialName": "Scales_Python_Female_lambert2",
+            "textureName": "pyhton_female_assets_Variation2_BaseMap_2",
+            "color": {
+              "R": 206,
+              "G": 227,
+              "B": 224
+            }
+          }
+        ],
+        "visibility": [],
+        "moveSet": [
+          {
+            "shortCode": "crouchPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "shortPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "longPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "doublePunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "slamPunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "pronePunch",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "crouchKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "shortKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "longKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "jumpKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "flipKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "doubleKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "proneKick",
+            "hitEffect": 30
+          },
+          {
+            "shortCode": "superPower",
+            "hitEffect": 30
+          }
+        ],
+        "file": {
+          "ETag": "\"7337efe631d2315c65eb7c35afff5e1a\"",
+          "Location": "https://bgms3.s3.amazonaws.com/PythonFemale7.png",
+          "key": "PythonFemale7.png",
+          "Key": "PythonFemale7.png",
+          "Bucket": "bgms3"
+        },
+        "published": false,
+        "createdAt": "2022-02-25T15:13:26.677Z",
+        "lastUpdated": "2022-02-25T15:13:26.677Z"
+      }
+    },
+    "createdAt": "2022-03-18T14:00:33.043Z",
+    "lastUpdatedAt": "2022-03-18T14:13:45.477Z",
+    "level": 0,
+    "result": "",
+    "state": "SENTFORRENDER",
+    "tournamenID": "62348e48537565fd042e885f",
+    "url": ""
+  },
+  "msg": "ok"
+}

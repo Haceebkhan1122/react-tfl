@@ -1,0 +1,640 @@
+.top_nft.brawls_page .hk_colapsing {
+    width: 100%;
+    background: transparent;
+}
+.start_bg{
+      background-image: url('/src/assets/img/main_bg.png');
+    height: 641px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 35px 0px 38px;
+    background-position: right bottom;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background-color: #231f28;
+    position: relative;
+    z-index: 999;
+}
+
+.start_bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(50, 51, 53, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.players_info_game {
+    background-image: url('/src/assets/img/b1.png');
+    height: 248px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px 35px 0px 0px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+.for_bg_players_cards_main{
+    background-image: url('/src/assets/img/cardnew_bg.png');
+    height: 344px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px;
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 5px 41px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 5px 41px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 41px 5px rgba(0, 0, 0, 0.75);
+    background-position: center;
+}
+.players_info_game.second {
+    background-image: url('/src/assets/img/b2.png');
+}
+   .players_info_game:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    background-image: url('/src/assets/img/light_card.png');
+    z-index: 22222;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+}
+.for_bg_players_cards_main.gameplay_new_design{
+    background-image: url('/src/assets/img/gpcn2.png');
+    height: 545px;
+    }
+.for_bg_players_cards_main.gameplay_new_design .players_info_game {
+    height: 448px;
+    background-size: contain;
+    padding: 5px 35px 0px 0px;
+    top: 40px;
+}
+.players_info_game.second {
+    background-image: url('/src/assets/img/b2.png');
+}
+.topper_area h3 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'FuturaLT-CondensedBold';
+    margin-right: 0;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.topper_area p {
+    font-size: 27px;
+    font-weight: normal;
+    color: white;
+    font-family: 'FuturaLT-Condensed';
+}
+.content_gamer {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    text-align: left;
+    z-index: 999999999;
+}
+.content_gamer h5 {
+   font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    height: 20px;
+    color: white;
+    line-height: 4px;
+    border: none;
+    background-repeat: no-repeat;
+    font-family: 'FuturaLT-Condensed';
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.content_gamer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'FuturaLT-CondensedBold';
+}
+.content_gamer h4 span {
+    font-family: 'FuturaLT-Condensed';
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+}
+.vs img {
+    height: 102px;
+    /* position: absolute; */
+    left: 30px;
+    top: 90px;
+}
+.next_game_list {
+    width: 100%;
+    padding: 19px 20px 8px 17px;
+    border-radius: 15px;
+    background-color: #1c1721;
+}
+img.userr_pic{
+    border: solid 1px #8753ff;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+.next_gamer_single h4 {
+    color: white;
+    font-family: 'FuturaLT-Condensed';
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.next_gamer_single h4 span {
+    display: block;
+}
+img.verses {
+    position: relative;
+    height: 27px;
+    top: -28px;
+}
+.mini_vs_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.smart_next h4 {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+.bottom_game_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+.players_cards_main {
+    width: 100%;
+}
+.brwaling_cards_top_right {
+    text-align: right;
+    margin: 25px 20px 0px 0px;
+}
+.brwaling_cards_top_right h2 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+.brwaling_cards_top_right p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0;
+}
+.brawls_page .select_abilites .stock-images [type=radio]:not(:checked) + label .image{
+    width: 100%;
+    height: 46px;
+    font-size:14px;
+    padding: 12px 5px 12px 20px;
+}
+.brawls_page .select_abilites .stock-images [type=radio]:checked + label .image{
+    width: 100%;
+    height: 46px;
+    font-size:15px;
+    padding: 12px 5px 12px 20px;
+}
+.card_brawl.select_abilites {
+    width: 100%;
+    height: auto;
+    padding: 5px 25px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 80%);
+    background-color: #1c1721;
+    margin-top: -12px;
+}
+.card_brawl.select_abilites .stock-images img {
+    height: 30px;
+}
+.card_brawl.select_abilites .stock-images [type=radio]:checked + label .image{
+    padding: 12px 5px 12px 20px;
+}
+.small_brawls_cards {
+    display: flex;
+    align-items: center;
+    margin-bottom:15px; 
+}
+.small_brawls_cards .custom_mini_data {
+    text-align: left;
+}
+.small_brawls_cards .custom_mini_data h4 {
+    margin-bottom: 0;
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.small_brawls_cards .custom_mini_data h6 {
+    margin-bottom: 0;
+    font-family: FuturaLT;
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+}
+.small_brawls_cards .custom_mini_data img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.card_brawl.select_abilites .exact_copy {
+    width: 100%;
+    margin-left: 0;
+}
+.for_right_border:after {
+    content: "";
+    position: absolute;
+    height: 105px;
+    background: #282031;
+    right: 0;
+    top: 8px;
+    width: 1px;
+}
+.for_right_border {
+    position: relative;
+}
+.brawls_card_showing {
+    height: 670px;
+}
+.brawls_card_showing .vs img {
+    top: 30px;
+}
+.result {
+    -webkit-filter: grayscale(1);
+}
+.result .select_abilites .stock-images [type=radio]:not(:checked) + label .image {
+    background: black;
+    border-color: black;
+}
+.see_result img {
+    height: 113px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -45px;
+    margin-top: 40px;
+    width: 100%;
+}
+.boots_on_result {
+    display: flex;
+    align-items: center;
+}
+.boots_on_result img {
+    height: 30px;
+    margin-right: 10px;
+}
+.boots_on_result h3 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.select_abilites .for_align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.boots_on_result span {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.players_cards_main.with_out_bg .card_brawl.select_abilites {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    padding-top: 25px;
+}
+.start_bg.result_content_main .topper_area h3 span{
+    font-size: 35px;
+}
+.start_bg.result_content_main .topper_area p {
+    font-size: 15px;
+}
+.for_result_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.for_result_content h4 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.for_result_content span {
+    font-family: 'Hyperwave_Two';
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+     width: 250px;
+    border-bottom: 1px solid #ffffff1a;
+    text-align: center;
+}
+.continued a.btn.btn_bg_hk{
+    padding: 7px 30px;
+}
+.moving_right_3 {
+    right: 13px;
+}
+.start_bg canvas#canvas {
+    height: 640px;
+}
+.for_zindex {
+    position: relative;
+    z-index: 999999;
+}
+.see_result {
+    position: relative;
+    z-index: 9999999; 
+}
+.brawls_page span.text_color img {
+    height: 16px;
+    position: relative;
+    right: 5px;
+    top: -2px;
+}
+.last_show .see_result img {
+    height: 141px;
+    width: auto;
+    margin-bottom: -60px;
+}
+.last_show a.btn.btn_bg_hk {
+    width: 136px;
+}
+/* .last_show .vs img {
+    margin-top: 50px !important;
+} */
+
+.start_bg.third_show .players_info_game{
+        box-shadow: 1px 5px 41px 5px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 1px 16px 26px -9px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 1px 5px 41px 5px rgba(0,0,0,0.75);
+}
+.start_bg.last_show {
+    /* height: 700px; */
+    height: fit-content;
+}
+body.modal-open.scroll_hide {
+    overflow: overlay !important;
+}
+.start_bg.video_area {
+    height: auto;
+}
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+.select_abilites .for_align .boots_on_result:first-child {
+    width: 100%;
+}
+.select_abilites .for_align .boots_on_result:first-child h3 {
+    width: 100%;
+    text-align: left;
+}
+.res_vs_spark_img_second .vs img {
+    top: 220px;
+}  
+
+
+.bracket_page .profile_content_bg .profile_content_profile .profile_flex {
+    display: block;
+    text-align: center;
+}
+.bracket_page .profile_content_bg .profile_numbers h4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 17px;
+}
+.bracket_page .profile_content_bg  span.text_color img {
+    height: 17px;
+    position: relative;
+    left: -4px;
+    top: -2px;
+}
+.bracket_page .profile_content_bg .profile_numbers h4 span {
+    display: block;
+    font-family: 'FuturaLT-Condensed';
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 8px;
+}
+.bracket_page .profile_content_bg  .profile_numbers {
+    margin-top: 15px;
+}
+.bracket_page .profile_content_bg ul.tab_mb {
+    border-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.bracket_page  .profile_content_bg {
+    height: auto;
+    margin-top: 33px;
+    padding-top: 60px;
+    border-bottom: 1px solid #363636;
+    padding-bottom: 50px;
+}
+.bracket_page .hYCtJu {
+    left: 17px;
+}
+.bracket_page .result_chain h3 {
+    top: 8px;
+    left: -9px;
+}
+.bracket_page .table_main .table tbody tr{
+    background-color: transparent;
+    box-shadow: none;
+}
+.bracket_page .hk_colapsing{
+    background-color: transparent;
+}
+.bracket_page  img.map3.bracket_round2 {
+    height: 273px;
+    width: 149px;
+}
+.bracket_page .for_centerization.for_drop3 {
+    margin-top: 140px;
+}
+.bracket_page .for_brack2_top {
+    margin-top: 144px;
+}
+.bracket_page .for_brack2_top img.map3.bracket_round2 {
+    top: 64px;
+}
+.round_3 img.map3.bracket_round2 {
+    height: 538px;
+    width: 149px;
+    top: 84px;
+}
+.round_3 {
+    margin-top: 133px;
+}
+.for_centerization.for_drop3.round_3 {
+    margin-top: 410px;
+}
+.for_centerization.round_3.round3_down {
+    margin-top: 408px;
+}
+.for_centerization.round_3.round3_down img.map3.bracket_round2 {
+    top: 70px;
+}
+.bracket_page .quarter_final {
+    margin-top: 320px !important;
+}
+.bracket_page .quarter_final img.map3.bracket_round2 {
+    height: 1077px;
+}
+.bracket_page .quarter_final .for_centerization.for_drop3.round_3 {
+    margin-top: 942px;
+}
+.bracket_page .for_centerization.round_3.quarter_2 {
+    margin-top: 945px;
+}
+.bracket_page .for_centerization.round_3.quarter_2 img.map3.bracket_round2 {
+    height: 1075px;
+    top: 69px;
+}
+.bracket_page .quarter_final.semi_final {
+    margin-top: 860px !important;
+}
+.bracket_page .quarter_final.semi_final img.map3.bracket_round2 {
+    height: 2145px;
+}
+.bracket_page .quarter_final.semi_final .for_centerization.for_drop3.round_3 {
+    margin-top: 2010px;
+}
+.bracket_page  .final_round {
+    margin-top: 1933px !important;
+}
+.for_centerization.for_drop3.third_place {
+    position: relative;
+    top: 0px;
+    left: 183px;
+}
+.bracket_page .table_expand {
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    max-height: 600px;
+    width: 1270px;
+}
+.bracket_page .table_expand::-webkit-scrollbar {
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 7px;
+}
+.bracket_page .table_expand::-webkit-scrollbar-track {
+    background-color: #3f347b;
+    border-radius: 7px;
+}
+.bracket_page .table_expand::-webkit-scrollbar-thumb {
+    background-color: #45b26c;
+    border-radius: 7px;
+}
+.bracket_page .table_main .table td {
+    padding-top: 0 !important;
+    padding-left: 0px !important;
+}
+img.ques_mark {
+    height: 23px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.toggling.topping {
+    top: 5px;
+}
+.for_centerization.for_drop3.third_place .toggling.topping {
+    top: 15px;
+}
+ul#myTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.winner_left_mini_img{
+    width: 45.3px;
+    height: 45.3px;
+    object-fit: contain;
+}
+.mind_text{
+    font-family: "FuturaLT-Condensed";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin-left: 11px;
+}
+.punch_text{
+    color: #f785d7;
+}
+.number_text span{
+    font-family: "FuturaLT-Condensed";
+    font-size: 15px;
+    text-align: left;
+}
+.mt_winner_left_mini_card{
+    margin-top: 25px !important;
+}
+.content_gamer.top_left_gp{
+    position: relative;
+    text-align: center;
+}
+.content_gamer.top_left_gp img {
+    height: 95px;
+    margin-top: -12px;
+}
+.content_gamer.top_left_gp p {
+    color: white;
+    font-family: 'Hyperwave_Two';
+    font-size: 40px;
+    margin-top: -15px;
+}
+.content_gamer.top_left_gp h4 {
+    text-align: left;
+}
+.content_gamer.gp_card_bottonn {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    left: 0;
+}
+.content_gamer.gp_card_bottonn h5 {
+    font-family: 'Hyperwave_Two';
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.content_gamer.gp_card_bottonn h4 span {
+    color: #f785d7;
+    font-size: 14px;
+}
+
+.for_bg_players_cards_main.gameplay_new_design .players_info_game:after{
+    bottom: 170px;
+}

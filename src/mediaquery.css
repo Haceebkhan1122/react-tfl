@@ -1,0 +1,1226 @@
+/* body{
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+}
+body.modal-open{
+    overflow: hidden !important;
+}
+html{
+    overflow-x: hidden;
+} */
+button.navbar-toggler {
+    margin-bottom: 12px;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+body.modal-open .modal.show{
+    padding-top: 0 !important;
+}
+button.btn.btn-link.transform_arrow {
+    text-transform: initial !important;
+}
+span.tooltiptext.tooltip-bottom {
+    text-transform: capitalize;
+}
+.text_right{
+    text-align: right;
+}
+button.btn.btn_bg_hk.hk_continue.go_marketplace.submit.position-relative.h_46_btnjust_shape {
+    width: 127px;
+}
+body{
+    overflow-x: hidden !important;
+    overflow-y: auto;
+}
+body.modal-open{
+    overflow: hidden !important;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+    box-shadow: none !important;
+}
+.btn_loader_overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: rgb(63 52 123 / 82%);
+    top: 0;
+    left: 0;
+}
+.btn_loader{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 100%;
+    border: 3px solid;
+    border-top-color: #4f3ac2;
+    border-bottom-color: #a59bd3;
+    border-left-color: #4f3ac2;
+    border-right-color: #a59bd3;
+    animation: loader4 1s ease-in-out infinite;
+    /* margin: auto; */
+}
+
+/* width */
+.scroll_table_pop::-webkit-scrollbar,
+.scroll_list_310::-webkit-scrollbar,
+.max_scroll_y547::-webkit-scrollbar{
+    width: 3px;
+    height: 3px;
+  }
+  
+  /* Track */
+.scroll_table_pop::-webkit-scrollbar-track,
+.scroll_list_310::-webkit-scrollbar-track,
+.max_scroll_y547::-webkit-scrollbar-track{
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+.scroll_table_pop::-webkit-scrollbar-thumb,
+.scroll_list_310::-webkit-scrollbar-thumb,
+.max_scroll_y547::-webkit-scrollbar-thumb{
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+.scroll_table_pop::-webkit-scrollbar-thumb:hover,
+.scroll_list_310::-webkit-scrollbar-thumb:hover,
+.max_scroll_y547::-webkit-scrollbar-thumb:hover{
+    background: #555; 
+  }
+  .form-control:focus{
+      box-shadow: none !important;
+  }
+  input{
+      padding-left: 19px !important;
+  }
+  .h_46_btnjust_shape{
+      height: 46px !important;
+  }
+  .hidden_scroll{
+      overflow-y: hidden !important;
+  }
+  .right_0{
+      right: 0;
+  }
+        .for_border_color .border_color_box:nth-child(1) label .image{
+            border: solid 2px #54f8fc;
+        }
+        .for_border_color .border_color_box:nth-child(2) label .image{
+            border: solid 2px #ff6a0d !important;
+        }
+        .for_border_color .border_color_box:nth-child(3) label .image{
+            border: 2px solid #bbff00;
+        }
+        .for_border_color .border_color_box:nth-child(4) label .image{
+            border: 2px solid #54f8fc;
+        }
+
+    .border_color_box .color_border:nth-child(1) label .image{
+        border-color:#54F8FC !important;
+    }
+    .border_color_box .color_border:nth-child(2) label .image{
+        border-color:#FF6A0D !important;
+    }
+    .border_color_box .color_border:nth-child(3) label .image{
+        border-color:#BBFF00 !important;
+    }
+    .border_color_box .color_border:nth-child(4) label .image{
+        border-color:#54F8FC !important;
+    }
+
+
+    .empty_state img,
+    .empty_state span{
+        display: none;
+    }
+    .empty_state a{
+        background-color: transparent !important;
+    }
+    .green_overlay{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), #45b26c);
+        font-family: Hyperwave_Two;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+    }
+    .brawls_result_table_h{
+        min-height: calc(100vh - 567px);
+    }
+    .tab_mb{
+        margin-bottom: 38.9px !important;
+        border-bottom: solid 1px #191122 !important;
+    }
+    .tab_mb ul li a{
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        padding-bottom: 25px !important;
+        position: relative;
+    }
+    .tab_mb ul li a.active{
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+    }
+    .tab_mb ul li a.active:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 25%;
+        transform: translateX(100%);
+        height: 2px;
+        background-color: #45b26c;
+    }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+    img.map1{
+        width: 100px;
+    }
+    img.map2{
+        width: 100px;
+    }
+    img.map3{
+        width: 49px;
+    }
+    img.hk_own_char {
+        width: 100%;
+    }
+    img.big_2 {
+        width: 135px !important;
+    }
+    img.big {
+        width: 249px !important;
+    }    
+    img.big_3 {
+        width: 86px !important;
+        top: 175px !important;
+    }
+    .home_lider .for_image {
+        height: 225px;
+    }
+    .card_market_first .full_box.slider .for_image img{
+        height: 210px !important; 
+    }
+    .card_market_first .full_box.slider{
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider {
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider .for_image {
+        height: 210px;
+    }
+    .card_first_row .full_box.slider{
+        height: 210px;
+    }
+    .resp_chardetail .fighter_person {
+        width: auto;
+        height: 341px;
+        object-fit: contain;
+    }
+    .char_info ul li h4 {
+        font-size: 16px;
+    }
+    .res_char_detail_btn .btn {
+        font-size: 16px;
+    }
+    .char_detail_profile_card .full_box.slider .for_image {
+        height: 240px;
+    }
+    .resp_tournament_collapse_trcard .player_bio img{
+        height: auto;
+    }
+    .exampleModal_resp .card_selection {
+        overflow-x: auto;
+    }
+    .exampleModal_resp .custom_bg {
+        width: 700px;
+        overflow: hidden;
+    }
+    /* .res_vs_spark_img .vs img {
+        height: 450px;
+        position: absolute;
+        left: -38px;
+        top: -85px;    left: -38px;
+    } */
+    /* .res_vs_spark_img_second .vs img{
+        left: -30px;
+    } */
+    .resp_next_game_list_w .next_game_list{
+        width: 100%;
+    }
+    /* .res_vs_spark_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    */
+    .resp_third_show_h{
+        height: fit-content;
+    }
+    .resp_third_show_h .card_brawl.select_abilites .stock-images img {
+        height: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    a.navbar-brand {
+        margin-right: 10px !important;
+    }
+    .biding_buy_area:first-child {
+        margin-left: 0;
+    }
+    .resp_char_detail{
+        height:242px !important;
+    }
+       
+}
+
+@media only screen and (max-width: 1199px) {
+    .res_vs_spark_img_second .vs img{
+        left: -30px;
+    }
+    .res_vs_spark_img .vs img {
+        left: -38px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    img.big_2 {
+        width: 135px !important;
+    }
+    img.big {
+        width: 249px !important;
+    }    
+    img.big_3 {
+        width: 86px !important;
+        top: 175px !important;
+    }
+    .resp_mb{
+        margin-bottom: 15px;
+    }
+    .home_lider .for_image {
+        height: 225px;
+    }
+    .card_market_first .full_box.slider .for_image img{
+        height: 210px !important; 
+    }
+    .card_market_first .full_box.slider{
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider {
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider .for_image {
+        height: 210px;
+    }
+    .resp_chardetail .fighter_person {
+        width: auto;
+        height: 341px;
+        object-fit: contain;
+    }
+    .resp_third_show_h {
+        height: fit-content;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 991px) {
+    
+    .scroll_table_tournament table {
+        width: 930px;
+    }
+    /* .result_resp_tag a.btn.btn_bg_hk{
+        width: 125px;
+    } */
+    /* img.map1 {
+        width: 90px;
+        left: 185px;
+    }
+    img.map2 {
+        width: 90px;
+        left: 185px;
+    }
+    img.map3 {
+        width: 38px;
+        left: 175px;
+    } */
+    .mb_resp_575 {
+        margin-bottom: 10px;
+    }
+    .after_login{
+        margin-bottom: 28px;
+    }
+    li.nav-item.wallet_crypto{
+        margin-bottom: 30px;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .prev-slick-arrow img {
+        top: -43px;
+        left: 25px;
+    }
+    .next-slick-arrow img {
+        top: -282px;
+        right: 25px;
+    }
+    .hot_bids{
+        padding-top: 90px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    a.navbar-brand {
+        margin-right: 10px;
+    }
+    #navbarSupportedContent {
+        background-color: rgb(0 0 0);
+        margin-top: 6px;
+      }
+      img.big_2 {
+        width: 135px !important;
+    }
+    img.big {
+        width: 249px !important;
+    }    
+    img.big_3 {
+        width: 86px !important;
+        top: 175px !important;
+    }
+    .resp_mb{
+        margin-bottom: 15px;
+    }
+    .home_lider .for_image {
+        height: 225px;
+    }
+    .card_market_first .full_box.slider .for_image img{
+        height: 210px !important; 
+    }
+    .card_market_first .full_box.slider{
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider {
+        width: 210px;
+    }
+    .market_place .hot_sale .full_box.slider .for_image {
+        height: 210px;
+    }
+    .banner{
+        min-height: auto;
+    }
+    /* .container, .container-md, .container-sm {
+        min-width: 720px;
+    } */
+    /* .start_own{
+        height: auto;
+    } */
+    .start_own .title_section{
+        margin-top: 10px;
+    }
+    .start_own .title_section h1,
+    .start_own .title_section p{
+        text-align: center;
+    }
+    .footer_content h3{
+        font-size: 20px;
+    }
+    .footer_content h5{
+        font-size: 20px;
+    }
+    .resp_chardetail .fighter_person {
+        width: auto;
+        height: 315px;
+        object-fit: contain;
+    }
+    .fighter_person.waiting {
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resp_chardetail .fighter_center_arrows {
+        padding-top: 110px;
+    }
+    .resp_chardetail .fighter_person.waiting img {
+        height: 23px;
+        width: 23px;
+        margin-bottom: 15px;
+    }
+    .resp_chardetail .fighter_person.waiting h2 {
+        font-size: 20px;
+    }
+    .resp_chardetail .fighter_person.waiting p {
+        font-size: 16px;
+    }
+    .fighter_center_arrows img {
+        margin-left: 0;
+    }
+    .drops_main {
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+    .drops_main .tournament_drops{
+        margin-bottom: 15px;
+    }
+    .tournament_drops.forchar_prof .for_selectbox {
+        width: 220px;
+    }
+    .tournament_drops.forchar_prof .for_selectbox:before {
+        top: 34px;
+        transform: rotate(59deg);
+    }
+    .tournament_drops.forchar_prof .for_selectbox:after {
+        right: -82px;
+        height: 40px;
+        width: 141px;
+        top: 85px;
+        transform: rotate(65deg);
+    }
+    .quickening_card .full_box.slider .for_image{
+        height: 174px;
+    }
+    .exampleModal_resp .custom_bg {
+        width: 700px;
+        overflow: hidden;
+    }
+    .res_price_info_w .priceinfo {
+        width: 75%;
+    }
+    .res_price_info_btn{
+        width: 75%;
+    }
+    .res_vs_card_bg_pos .players_info_game{
+        background-position: 25% 75%;
+    }
+    .resp_third_show_h {
+        height: fit-content;
+    }
+    .resp_third_show_h .players_info_game {
+        background-position-y: -4px;
+    }
+    
+    
+    .resp_bg_position .players_info_game{
+        background-position-y: -4px;
+    }
+    .res_vs_spark_img .vs img {
+        height: 110px;
+        top: -35px;
+        width: 100%;
+        position: revert;
+    }
+    .res_vs_spark_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .res_vs_spark_img_second .vs img {
+        left: 0;
+        width: 100%;
+        height: 110px;
+        position: absolute !important;
+    }
+    .resp_third_show_h .for_right_border .small_brawls_cards:last-child {
+        border-bottom: 1px solid #0f4d6c61;
+        margin-bottom: 0 !important;
+        padding-bottom: 15px;
+    }
+    .resp_third_show_h .for_right_border:after{
+        display: none;
+    }
+    /* .container{
+        max-width: 100%;
+    } */
+    /* .title_section h1{
+        font-size: 70px;
+    }
+
+    .left_part h1{
+        font-size: 70px;
+    }
+    .title_fighter h1{
+        font-size: 70px;
+    } */
+    .resp_font{
+        font-size: 50px !important;
+    }
+    .res_animtion .full_box {
+        width: 243.6px;
+    }
+    .res_font_watch h1{
+        font-size: 40px;
+    }
+    .resp_char_detail {
+        height: 173px !important;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
+    body.modal-open .header.for_modal_all {
+        padding-right: 0;
+    }
+    .navbar-collapse.show li:last-child {
+        margin-bottom: 20px !important;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .drop_down_img.show {
+        padding: 19px 0 19px 19px !important;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
+    .fnt_res_23px{
+        font-size: 23px !important;
+    }
+    
+    .resp_enter_tournament_font{
+        font-size: 20px !important;
+    }
+    .mb_resp_575 {
+        margin-bottom: 10px;
+    }
+    p.copy_right{
+        margin-top: 25px;
+    }
+    .prev-slick-arrow img {
+        top: -40px;
+        left: 25px;
+    }
+    .next-slick-arrow img {
+        top: -270px;
+        right: 25px;
+    }
+    .hot_bids{
+        padding-top: 90px;
+    }
+    .loading-text{
+        width: fit-content;
+    }
+    .res_font_watch h1{
+        font-size: 45px !important;
+    }
+    .resp_char_detail {
+        height: 295px !important;
+    }
+    /* button.btn.btn_bg_hk{
+        padding: 0px 25px;
+    } */
+    .modal-content.quickening_loader{
+        width: 360px;
+    }
+    /* .select_abilites button.btn{
+        font-size: 20px;
+    } */
+    body,html{
+        overflow-x: hidden;
+    }
+    .select_abilites.modal-footer.priceinfo.res_px_modal_footer{
+        width: 100%;
+    }
+    .banner{
+        min-height: 1024px;
+    }
+    .top_nft.home_nft{
+        height: auto;
+    }
+    /* .resp_container_w{
+        max-width: 720px !important;
+    } */
+    .resp_container_w table{
+        width: 650px;
+    }
+    .scroll_table_tournament table{
+        width: 930px;
+    }
+    .some_inner {
+        position: relative;
+        left: -130px;
+        top: 80px;
+    }
+    span.cross_hide {
+        top: -23px;
+    }
+    .scroll_table_home table{
+        width: 650px;
+    }
+    .resp_flex_card{
+        display: flex;
+        justify-content: center;
+    }
+    div#accordion button.btn {
+        font-size: 16px !important;
+    }
+    section.faqs .card-header {
+        padding: 7px 0px;
+    }
+    /* .resp_chardetail .fighter_person {
+        width: auto;
+        height: 315px;
+        object-fit: contain;
+    }
+    .resp_chardetail .fighter_person img {
+        height: 335px;
+    }
+    .resp_chardetail .fighter_person.waiting{
+        height: 295.15px;
+    }
+    .resp_chardetail .fighter_center_arrows {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } */
+    .resp_chardetail .fighter_person {
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+    .resp_chardetail .fighter_person.waiting{
+        height: 295.15px;
+        padding: 0 85px;
+    }
+    .resp_chardetail .fighter_center_arrows {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .resp_chardetail .fighter_person.waiting img {
+        height: 53px;
+        width: 53px;
+        margin-bottom: 15px;
+    }
+    .resp_chardetail .fighter_person.waiting h2 {
+        font-size: 30px;
+    }
+    .resp_chardetail .fighter_person.waiting p {
+        font-size: 20px;
+    }
+    .resp_profile_numbers h4{
+        margin-right: 30px;
+    }
+    .exampleModal_resp .custom_bg {
+        width: 700px;
+        overflow: hidden;
+    }
+    .res_price_info_btn{
+        width: 75%;
+    }
+    .start_bg.first_show {
+        min-height: fit-content;
+        height: fit-content;
+    }
+    .moving_right_3 {
+        right: 0;
+    }
+    .res_vs_spark_img .vs img,
+    .res_vs_spark_img_second .vs img {
+       position: revert !important;
+    } 
+    .start_bg{
+        padding: 42px 25px 30px 25px;
+    }
+    .resp_third_show_h {
+        height: fit-content;
+    }
+    .resp_chardetail .fighter_person.waiting img {
+        height: 23px;
+        width: 23px;
+        margin-bottom: 15px;
+    }
+    .resp_chardetail .fighter_person.waiting h2 {
+        font-size: 20px;
+    }
+    .resp_chardetail .fighter_person.waiting p {
+        font-size: 16px;
+    }
+    /* .left_part h1{
+        font-size: 70px;
+    }
+    .title_section h1{
+        font-size: 70px;
+    }
+    .left_part h1{
+        font-size: 70px;
+    } */
+    /* img.big_3 {
+        width: 86px !important;
+        top: -85px !important;
+        right: -180px;
+    } */
+    .start_own{
+        height: auto;
+    }
+    .start_own .title_section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .res_some_inner_position{
+        position: revert;
+    }
+    .res_animtion {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .res_animtion .z_index{
+       margin-bottom: 20px;
+    }
+    .resp_px_modal_footer .select_abilites.modal-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* .modal-content.transaction_confirm {
+        width: auto !important;
+    } */
+    .hk_bought_line:before{
+        display: none;
+    }
+    /* .modal-content.confirm_seletion.place_a_bid {
+        width: 100%;
+    } */
+    .char_info ul li{
+        margin-bottom: 10px;
+    }
+    /* .res_w_for_selectbox{
+        width: 75% !important;
+        margin: auto;
+    } */
+    .chara_bg {
+        height: fit-content;
+    }
+    .cust_btn_px_modal {
+        padding: 0px 19px !important;
+    }
+    .char_info.right_info .for_right {
+        justify-content: left;
+    }
+    h1{
+        font-size: 50px !important;
+    }
+    .res_w_100{
+        width: 100% !important;
+    }
+    /* .modal-content.transaction_confirm .select_abilites.modal-footer.priceinfo{
+        width: 83% !important;
+    } */
+    .modal-content.quick_sucess .select_abilites.modal-footer.priceinfo{
+        width: 85%;
+    }
+    .modal-content.confirm_seletion.bough_fight_main_tops {
+        width: 100%;
+    }
+    .rsp_size_img img{
+        height: 100px !important;
+    }
+    .resp_profiler_name{
+        flex-direction: row-reverse;
+    }
+    .resp_profiler_name .char_pro_name {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        
+    }
+    .resp_profiler_name .char_pro_name:nth-child(2) img{
+        margin-left: 0 !important;
+        margin-right: 10px;
+    }
+    .char_info.right_info p {
+        text-align: left;
+    }
+    .resp_trans_pt_modal{
+        padding-top: 20px !important;
+    }
+    button.btn.btn_bg_hk.hk_continue.go_marketplace.cust_btn_px_modal.h_46_btnjust_shape {
+        width: fit-content;
+    }
+    .res_px_modal_footer button{
+        font-size: 22px !important;
+    }
+    .profile_flex.prof_right {
+        justify-content: flex-start;
+    }
+    img.hk_own_char{
+        width: 100% !important;
+    }
+    .hk_modal_for_select .tournament_drops {
+        justify-content: center;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .exampleModal_resp .custom_bg {
+        width: 700px;
+        overflow: hidden;
+    }
+    .exact_copy_resp .exact_copy {
+        margin-left: 0;
+        width: 100% !important;
+    }
+    .drops_main .tournament_drops {
+        margin-right: 0px;
+    }
+    .drops_main .tournament_drops {
+        margin-right: 0;
+    }
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .text_left_custom_385{
+        text-align: left !important;
+    }
+    .drops_main .tournament_drops {
+        margin-right: 0px;
+    }
+    .drops_main .tournament_drops {
+        margin-right: 0;
+    }
+    .prev-slick-arrow img {
+        top: -40px;
+        left: 5px;
+    }
+    .next-slick-arrow img {
+        top: -270px;
+        right: 5px;
+    }
+    .drops_main {
+        flex-direction: column;
+    }
+    .res_cha.resp_wrap_575 {
+        justify-content: center !important;
+    }
+    .exampleModal_resp .custom_bg {
+        width: 700px;
+        overflow: hidden;
+    }
+    .resp_modal_w_lg{
+        width: auto !important;
+    }
+    .exact_copy_resp .exact_copy {
+        margin-left: 0;
+        width: 100% !important;
+    }
+    .mb_res_cust .for_selectbox{
+        margin-bottom: 10px;
+    }
+    .res_price_info_btn{
+        width: 100%;
+    }
+    .table_main.resp_xs_add_scroll .card_selection {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .table_main.resp_xs_add_scroll .card_selection .custom_bg{
+        width: 500px;
+    }
+    .hk_modal_for_select .modal-dialog.modal-lg {
+        width: auto;
+    }
+    .resp_chardetail .fighter_person.waiting {
+        height: 295.15px;
+        padding: 0 30px;
+    }
+    .slick-prev {
+        left: -5px !important;
+    }
+    .slick-next {
+        right: -5px !important;;
+    }
+    img.big{
+        width: 200px !important;
+    }
+    img.big_2 {
+        width: 100px !important;
+    }
+    img.big_3 {
+        width: 86px !important;
+        top: 137px !important;
+        right: 40px;
+    }
+    .resp_h_center {
+        justify-content: center;
+    }
+    .left_part h1{
+        font-size: 50px;
+    }
+    .title_section h1{
+        font-size: 50px;
+    }
+    .left_part h1{
+        font-size: 50px;
+    }
+    .banner {
+        min-height: 860px;
+    }
+    .char_image.res_char_img img {
+        width: 100%;
+        object-fit: contain;
+        height: 300px;
+    }
+    .res_px_modal_footer{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .res_w_auto_confirm_seletion{
+        width: 100% !important;
+    }
+    .hk_bought_line:before{
+        display:none;
+    }
+    .res_cha .biding_buy_area{
+        margin-bottom: 10px;
+    }
+    .resp_wrap_575{
+        flex-wrap: wrap;
+    }
+    .biding_buy_area {
+        margin-left: 10px;
+    }
+    .biding_buy_area {
+        margin-left: 10px !important;
+    }
+    .mb_resp_575{
+        margin-bottom: 10px;
+    }
+    .modal_footer_px0{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .start_own h1 {
+        line-height: 40px;
+    }
+    .modal-content.transaction_confirm {
+        width: auto !important;
+    }
+    .share_wishlist_main {
+     margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+
+    .resp_text h3{
+        font-size: 25px;
+    }
+    .resp_text p{
+        word-break: break-all;
+    }
+    .profile_content_bg {
+        width: 100%;
+        height: fit-content;
+        background-color: #1c1721;
+        margin-top: 33px;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .start_own h1 {
+        line-height: 40px;
+    }
+    .modal-content.quickening_loader {
+        width: 100%;
+    }
+      .character_details .character_profile {
+    padding: 0;
+    }
+    ul.navbar-nav li.nav-item{
+    display: block;
+    width: 100%;
+    }
+    .character_details2 .char_image img {
+     width: 100%;
+     }
+    .character_details2  .biding_buy_area:first-child{
+         margin-left: 0 !important;
+     }
+    .character_details2  .for_right.flex-wrap.j_sp_around_resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .select_abilites.modal-footer{
+        padding-top: 10px !important;
+    }
+    .share_wishlist_main {
+     margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .last_show .see_result img {
+        height: 100px;
+        width: auto;
+        margin-bottom: -50px;
+    }
+    .topper_area h3 {
+        font-size: 35px;
+    }
+    .topper_area p {
+        font-size: 18px;
+    }
+    /* .text_left_custom_385{
+        text-align: center !important;
+    } */
+    .flex_column_custom_385{
+        flex-direction: column;
+    }
+    .flex_column_custom_385 h3,
+    .flex_column_custom_385 h5{
+        width: 100%;
+        text-align: left;
+    }
+    .flex_column_custom_385 h3:first-child{
+        margin-right: 0 !important;
+    }
+    /* .select_abilites.modal-footer.priceinfo .for_selectbox:after {
+        right: -78px;
+        height: 18px;
+        width: 103px;
+        top: 67px;
+        transform: rotate(50deg);
+    }     */
+    /* .select_abilites.modal-footer.priceinfo .for_selectbox:before {
+        height: 26px;
+        width: 108px;
+        top: 32px;
+        transform: rotate(42deg);
+    } */
+    .placing_bid .tournament_drops .for_selectbox:after {
+        right: -47px;
+        height: 48px;
+        width: 87px;
+        top: 58px;
+        transform: rotate(62deg);
+    }
+    .placing_bid .tournament_drops .for_selectbox:before {
+        left: -10px;
+        height: 53px;
+        width: 70px;
+        top: 14px;
+        transform: rotate(
+    51deg);
+    }
+    .modal-content.confirm_seletion.place_a_bid {
+        width: 100%;
+    }
+    .res_w_table .custom_bg{
+        max-width: 320px;
+        width: 320px !important;
+    }
+    .scroll_auto_x{
+        overflow-x: auto;
+    }
+    .biding_buy_area {
+        margin-left: 10px !important;
+    }
+    .modal-content.confirm_seletion.bough_fight_main_tops .select_abilites.modal-footer {
+        width: 90%;
+    }
+    .place_a_bid .select_abilites.modal-footer{
+        width: 96%;
+    }
+    .modal-content.quick_sucess {
+        width: 100% !important;
+        margin: auto;
+    }
+    .j_sp_around_resp{
+        justify-content: space-around !important;
+    }
+    .j_sp_around_resp .biding_buy_area:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .start_own h1 {
+        line-height: 40px;
+    }
+    /* .resp_btn_adjust_login{
+        padding: 30px 10px;
+    }
+    .resp_btn_adjust_login .quickening_continue{
+        width: 127px;
+    } */
+    .resp_btn_adjust_login {
+        padding: 30px 10px 0 !important;
+    }
+    .px_footer_btn{
+        padding: 30px 10px 0 !important;
+    }
+    .hk_modal_for_select .tournament_drops .for_selectbox {
+        margin-right: 0px;
+    }
+
+    .character_details .character_profile {
+    padding: 0;
+    }
+    ul.navbar-nav li.nav-item{
+            display: block;
+    width: 100%;
+    }
+    .character_details2 .char_image img {
+    width: 100%;
+     }
+     .character_details2  .biding_buy_area:first-child{
+         margin-left: 0 !important;
+     }
+    .character_details2  .for_right.flex-wrap.j_sp_around_resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     .select_abilites.modal-footer{
+        padding-top: 10px !important;
+    }
+    .share_wishlist_main {
+     margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .video_part {
+        height: 404px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .video_part {
+        height: 276px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    .video_part {
+        height: 201px;
+    }
+}

@@ -1,0 +1,6 @@
+export const TOURNAMENT_STATUS = {
+  OPEN: 'OPEN',
+  CLOSE: 'CLOSE',
+  STARTED: 'STARTED',
+  LIVE: 'LIVE',
+};

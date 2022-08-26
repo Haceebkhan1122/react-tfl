@@ -1,0 +1,287 @@
+.content_for.first p span {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.title_fighter h1 {
+    font-family: Hyperwave_Two;
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+}
+.fighter_person {
+    width: 100%;
+    height: 421px;
+    object-fit: contain;
+}
+
+.fighter_person img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.content_fighterPerson h3 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.content_fighterPerson p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}
+
+.content_fighterPerson {
+    margin-top: 20px;
+}
+.gender_area_fighter h5 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.gender_area_fighter h5 p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 13px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}
+
+.gender_area_fighter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fighter_bottom_inner h4 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    color: white;
+    margin-bottom: 0;
+}
+
+.fighter_bottom_inner p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 13px;
+    font-weight: normal;
+    color: white;
+}
+
+.fighter_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.fighter_bottom_inner {
+    text-align: left;
+}
+.fighter_bottom_inner:first-child {
+    margin-right: 120px;
+}
+.fighter_bottom_inner.br_fighter_right:before {
+ content: "";
+ position: absolute;
+ height: 38px;
+ width: 2px;
+ background: #261e30;
+ left: -30px;
+ top: 0;
+ }
+.fighter_bottom_inner.br_fighter_right {
+    position: relative;
+}
+.fighter_center_arrows img{
+    height: 25px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+.fighter_center_arrows img:first-child {
+    /* height: 45px;
+    object-fit: cover;
+    margin-left: 5px; */
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+.fighter_center_arrows {
+    padding-top: 180px;
+}
+.fighter_person.waiting {
+    padding: 103px 47px 94px 47px;
+    border-radius: 15px;
+    border: dotted 2px #282031;
+    cursor: pointer;
+}
+
+.fighter_person.waiting img {
+    height: 53px;
+    object-fit: cover;
+    width: 53px;
+    margin-bottom: 25px;
+}
+.fighter_person.waiting h2 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.fighter_person.waiting p {
+    font-family: 'FuturaLT-Condensed';
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+}
+
+/*******for loading content css ***********/
+.content_fighterPerson.for_Waited h3 {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 90px;
+    font-size: 0;
+    height: 24px;
+    position: relative;
+    top: 5px;
+}
+.content_fighterPerson.for_Waited p {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 46px;
+    font-size: 0;
+    height: 11px;
+    margin-top: 17px;
+}
+.gender_area_fighter.for_Waited h5{
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 46px;
+    font-size: 0;
+    height: 13px;
+    margin-top: 8px;
+}
+.gender_area_fighter.for_Waited h5 p {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 37px;
+    font-size: 0;
+    height: 10px;
+    margin-top: 18px;
+}
+hr.char_line.for_Waited {
+    margin-top: 33px;
+}
+.fighter_bottom.for_Waited h4{
+     border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 46px;
+    font-size: 0;
+    height: 13px;
+    margin-top: 3px;
+}
+.fighter_bottom.for_Waited p{
+     border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: transparent;
+    width: 25px;
+    font-size: 0;
+    height: 10px;
+    margin-top: 7px;
+}
+/*******for loading content css end ***********/
+.resp_chardetail .get_started .biding_buy_area a.btn.btn_bg_hk.selected {
+    width: 183px;
+    height: 54px;
+    font-size: 30px;
+}
+.custom_bg.for_demo {
+    cursor: pointer;
+}
+.on_demo_showing{
+    display: none;
+}
+a.btn_bg_hk.selected.disabled {
+    filter: grayscale(100%);
+}
+.modal-content.quickening_loader {
+    width: 360px;
+    margin: auto;
+}
+.loeaderss {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.loeaderss img {
+    height: 108px;
+    object-fit: contain;
+    margin: auto;
+}
+.quick_success h3 {
+    font-family: 'FuturaLT-CondensedBold';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.modal-content.quick_sucess {
+    width: 360px;
+    margin: auto;
+}
+.modal-content.quick_sucess .select_abilites.modal-footer.priceinfo {
+    width: 100%;
+}
+.modal-content.quick_sucess button.btn.btn_bg_hk.hk_continue.with_borders {
+    padding: 0;
+}
+.modal-content.quick_sucess .select_abilites.modal-footer.priceinfo button.btn.btn_bg_hk.hk_continue.quickening_continue {
+    padding: 8px 20px;
+}
+
+.loader4 {
+ width: 108px;
+    height: 108px;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 100%;
+    border: 3px solid;
+    border-top-color: #4f3ac2;
+    border-bottom-color: #a59bd3;
+    border-left-color: #4f3ac2;
+    border-right-color: #a59bd3;
+    animation: loader4 1s ease-in-out infinite;
+    margin: auto;
+}
+@keyframes loader4 {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(360deg);}
+}
+@-webkit-keyframes loader4 {
+   from {-webkit-transform: rotate(0deg);}
+   to {-webkit-transform: rotate(360deg);}
+}
+
+.max_scroll_y547{
+    max-height: 547px;
+    overflow-y: auto;
+}
+div#exampleModalLong {
+    z-index: 9999999;
+}
+.modal-content.select_fighter.select_char .for_selectbox.hk_too_width:before {
+    left: -23px !important;
+}
+.modal-content.select_fighter.select_char .for_selectbox.hk_too_width:after {
+    right: -71px !important;
+}

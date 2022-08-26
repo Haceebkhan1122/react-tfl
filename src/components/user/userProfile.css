@@ -1,0 +1,241 @@
+.setting_area {
+    width: 100%;
+    height: 370px;
+    padding: 24px 29px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0 28px 34px -10px rgb(0 0 0 / 39%);
+    background-color: #1c1721;
+}
+
+.setting_area h3 {
+    font-family: FuturaLT-CondensedBold;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.profile_picture {
+    text-align: left;
+    padding: 25px 0px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.for_selectbox.hk_too_width input {
+    background: transparent;
+    width: 100% !important;
+    padding: 0px 45px;
+    border: none;
+    outline: none;
+    height: 44px;
+    color: white;
+}
+
+.for_selectbox.hk_too_width input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.for_selectbox.hk_too_width {
+    height: 50px;
+}
+
+.setting_area .for_selectbox.hk_too_width:before {
+    left: -8px !important;
+    height: 26px !important;
+    width: 70px !important;
+    top: 23px !important;
+    transform: rotate(62deg) !important;
+}
+
+.setting_area .for_selectbox.hk_too_width:after {
+    right: -39px !important;
+    height: 37px !important;
+    width: 81px !important;
+    top: 62px !important;
+    transform: rotate(72deg) !important;
+}
+
+label.hk_switch {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.setting_area.noti_area {
+    height: 135px;
+}
+
+.setting_area.noti_area .react-switch-handle {
+    width: 23px !important;
+    height: 23px !important;
+    top: -5px !important;
+    left: -7px !important;
+}
+
+.save_btn_control {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.save_btn_control a.btn.btn_bg_hk {
+    width: 13%;
+}
+
+.profile_picture div {
+    cursor: pointer !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100px !important;
+}
+
+.setting_area .for_selectbox {
+    clip-path: polygon(8% -13%, 100% 0, 100% 0, 100% 83%, 94% 100%, 0 100%, 0 100%, 0% 30%) !important;
+}
+
+.profile_picture div.sc-papXJ.kSDroX {
+    background-color: transparent !important;
+    background-image: url(../../assets/img/profiless.png) !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    cursor: pointer !important;
+    position: relative;
+}
+
+.sc-papXJ.kSDroX:after {
+    content: "";
+    background-image: url(../../assets/img/add_pro.png) !important;
+    position: absolute;
+    right: 7px;
+    bottom: -3px;
+    width: 30px;
+    height: 30px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1 !important;
+}
+
+.sc-iqcoie.jKyUrC {
+    display: none !important;
+}
+
+.sc-breuTD.gAjoom svg {
+    width: 27px !important;
+}
+
+.sc-breuTD.gAjoom {
+    position: absolute;
+    top: 66px;
+    right: -6px;
+    width: 10px !important;
+    height: 4px !important;
+}
+
+.sc-evZas.emCJxP img {
+    border-radius: 100px;
+    object-fit: cover !important;
+    border: 1px solid #ccc;
+}
+
+img.extra_add {
+    position: absolute;
+    z-index: 9999;
+    height: 30px;
+    bottom: -25px;
+    right: 4px;
+}
+span.error {
+    font-family: 'FuturaLT-Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #DC3F16;
+    position: absolute;
+    left: 15px;
+    top: 56px;
+}
+.save_btn_control.verify a.btn.btn_bg_hk {
+    width: 15%;
+}
+.hk_modal_for_select .otp_verification .for_selectbox.hk_too_width:before {
+    left: 1px !important;
+    height: 20px !important;
+    width: 8px !important;
+    top: -1px !important;
+    transform: rotate(22deg) !important;
+}
+.hk_modal_for_select .otp_verification .for_selectbox.hk_too_width:after {
+    right: -2px !important;
+    height: 21px !important;
+    width: 5px !important;
+    top: 33px !important;
+    transform: rotate(28deg) !important;
+}
+.hk_modal_for_select .otp_verification .tournament_drops .for_selectbox input{
+    padding: 0 !important;
+    text-align: center;
+    margin: auto;
+}
+
+.success_text_meta_mask button {
+    font-family: 'Hyperwave_Two' !important;
+    font-size: 26px !important;
+    font-weight: normal !important;
+    color: #45b26c !important;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.resend_code {
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.success_text_meta_mask span {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    font-family: 'FuturaLT-Condensed';
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    left: 36px;
+    width: 100%;
+}
+.hk_modal_for_select .otp_verification .modal-content {
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+.hk_modal_for_select  .otp_verification p {
+    width: 100%;
+    display: block;
+    text-align: center !important;
+}
+
+.otp_verification .for_selectbox.hk_too_width {
+    width: 55px !important;
+    height: 54px !important;
+}
+.hk_modal_for_select .otp_verification .tournament_drops {
+    justify-content: space-between;
+}
+.resend_code span {
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    display: block;
+    line-height: 22px;
+    font-family: 'FuturaLT-Condensed';
+}
